@@ -55,7 +55,7 @@ def main():
 
 @app.route("/<name>")
 def idk(name):
-    return "Hi,%s! I love you" % name #we can use format{}
+    return "Hi,%s! Bye." % name #we can use format{}
 '''
 @app.route("/login",methods=["POST","GET"])
 def login():
@@ -93,7 +93,7 @@ def send_image(filename):
 
 @app.route("/<name>")
 def idk(name):
-    return "Hi,%s! I love you" % name
+    return "Hi,%s! Bye." % name
 """
 @app.route("/predict", methods =["GET","POST"])
 def predict():
